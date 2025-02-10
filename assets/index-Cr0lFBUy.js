@@ -197,13 +197,18 @@ Please change the parent <Route path="${S}"> to <Route path="${S==="/"?"*":`${S}
   margin-top: 18%; /* Додаємо відступ зверху для великих екранів */
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: bold;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: bold;
+  }
+
+  h4 {
+    font-size: 1.4rem;
+    color: #e2bc84;
   }
 
   p {
@@ -242,7 +247,7 @@ Please change the parent <Route path="${S}"> to <Route path="${S==="/"?"*":`${S}
     h4 {
       padding-bottom: 1rem;
       font-size: 1.4rem;
-      margin-top: 8rem;
+      margin-top: 5rem;
       color: #e2bc84;
     }
 
@@ -298,7 +303,7 @@ Please change the parent <Route path="${S}"> to <Route path="${S==="/"?"*":`${S}
   li {
     position: relative;
     padding-left: 30px; /* Відступ для тире */
-    margin-bottom: 8px; /* Проміжок між пунктами */
+    margin-bottom: 5px; /* Проміжок між пунктами */
 
     &::before {
       content: "-"; /* Додаємо тире перед кожним пунктом */
@@ -307,7 +312,7 @@ Please change the parent <Route path="${S}"> to <Route path="${S==="/"?"*":`${S}
       color: #e2bc84; /* Колір тире */
     }
   }
-`,ty=()=>q.jsxs(X0,{id:"main",children:[q.jsx(K0,{}),q.jsxs(Z0,{children:[q.jsx("h1",{children:"Дрова"}),q.jsx("h2",{children:"Дубові"}),q.jsx("h2",{children:q.jsxs("span",{children:[q.jsx(Q0,{}),"Бердичів"]})}),q.jsx("h3",{children:"За найкращими цінами на ринку"}),q.jsx("p",{children:"Натисніть на номер, щоб зателефонувати"}),q.jsx(J0,{href:"tel:+3800678747499",children:"+38 (067) 874-74-99"}),q.jsx("h4",{children:"Чому варто обрати саме нас?"}),q.jsxs(ey,{children:[q.jsx("li",{children:" Біьше 10 років продуктивної роботи на ринку"}),q.jsx("li",{children:"Гнучкі умови оплати"}),q.jsx("li",{children:"Індивідуальний підхід"}),q.jsx("li",{children:"Швидка доставка"})]})]})]}),ny=ke.section`
+`,ty=()=>q.jsxs(X0,{id:"main",children:[q.jsx(K0,{}),q.jsxs(Z0,{children:[q.jsx("h1",{children:"Дрова"}),q.jsx("h2",{children:"Дубові"}),q.jsx("h2",{children:q.jsxs("span",{children:[q.jsx(Q0,{}),"Бердичів"]})}),q.jsx("h3",{children:"За найкращими цінами на ринку"}),q.jsx("p",{children:"Натисніть на номер, щоб зателефонувати"}),q.jsx(J0,{href:"tel:+3800678747499",children:"+38 (067) 874-74-99"}),q.jsx("h4",{children:"Чому варто обрати саме нас?"}),q.jsxs(ey,{children:[q.jsx("li",{children:" Біьше 10 років продуктивної роботи"}),q.jsx("li",{children:"Гнучкі умови оплати"}),q.jsx("li",{children:"Індивідуальний підхід"}),q.jsx("li",{children:"Швидка доставка"})]})]})]}),ny=ke.section`
   padding: 40px 20px;
   background-color: #2f190c;
   background-size: cover;
